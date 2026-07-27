@@ -1,8 +1,28 @@
 aid: hyalex-orthopaedics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hyalex-orthopaedics.png
 name: Hyalex Orthopaedics
-description: Hyalex Orthopaedics is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Hyalex Orthopaedics is a medical device company developing synthetic cartilage
+  technology to repair and restore damaged joint surfaces. Its lead product, the
+  HYALEX Knee System, uses a hydrogel-based material engineered to mimic the
+  properties of natural cartilage and is intended to resurface damaged joints
+  during surgery as an alternative to traditional implants. The company has
+  received FDA Breakthrough Device Designation and is conducting clinical
+  studies. Hyalex Orthopaedics is a portfolio company of Canaan Partners. As a
+  physical medical-device manufacturer it does not currently publish a public
+  developer platform, API, SDKs, or developer documentation; this profile
+  captures its verified public identity for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/hyalex-orthopaedics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,31 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Medical Devices
+- Orthopedics
+- MedTech
+- Health
+- Biotechnology
+- Implants
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hyalex-orthopaedics-domain-security.yml
+- type: Website
+  url: https://hyalex.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
